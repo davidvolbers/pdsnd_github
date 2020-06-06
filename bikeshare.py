@@ -7,6 +7,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
               'washington': 'washington.csv' }
 
 def get_city():
+    """ Asks a user to specify, for which city he would like to analyze data and returns the respective city as a string. """
     while True:
         try:
             city = input('Would you like to see data for Chicago, New York City, or Washington?\n')
